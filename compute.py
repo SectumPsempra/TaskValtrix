@@ -1,6 +1,13 @@
+# Python 3.5.4
+# Should be compatible with most python versions
+
+# import csv module to read input file
 import csv
 
 def return_output(inputFile, outputFile):
+	# input function takes two arguments:
+	# @:inputFile - Name of the input file, read the two numbers
+	# @:outputFile - write to calulation to outputFile
 	ans = 0	
 	
 	with open(inputFile) as files:
